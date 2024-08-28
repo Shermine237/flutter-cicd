@@ -1,0 +1,38 @@
+# Atelier 3
+Code source et CI/CD : https://gitlab.com/b3-soir/atelier-3.git
+APK Release telechargeable : https://mega.nz/file/8vMASLAL#Beg8S83t1uRq1hPA-RwQGCd8uA9l_Nl7nGAfejBexgs
+APK Release sur Firebase : https://appdistribution.firebase.dev/i/cde8034f72b13aca
+
+# Context et cas d'utilisation
+
+
+1. Widgets de Base et Hiérarchie
+	Utilisé sur toutes les pages de l'application
+
+2. Gestion des États
+	Utilisé sur toutes les pages de l'application
+
+3. Navigation et Gestion des Routes
+	Utilisé sur GeneratorPage qui dirige ver Page2 et inversement
+
+4. Interactions Utilisateur et Formulaires
+	Utilisé sur la LoginScreen
+
+5. Récupération de Données depuis une API
+	Utilisé sur la page MeteoPage (Qui utilise l'API OpenWeather pour afficher la meteo pour la ville saisie)
+
+6. Intégration de Firebase
+	a- Configuration du Projet
+		Utilisé sur le fichier main pour initialiser Firebase
+	b- Authentification avec Firebase
+		Utilisé sur la page LoginScreen (Page de connexion)
+	c- Stockage dans le Cloud
+		Utilisé sur la page FolderPage (Gestionnaire de fichier depuis le cloud)
+	d- Base de Données en Temps Réel
+		Utilisé sur la page ToDoPage (une ToDo list)
+	e- Notifications Push
+		Utilisé sur la console Firebase
+
+
+
+
